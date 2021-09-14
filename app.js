@@ -13,7 +13,7 @@ let urinish = document.querySelector("#urinishlar");
 let random = Math.floor(Math.random() * 20 + 1);
 let a = 5;
 
-for (let i = 0; i < 5; i++) {
+for (let i = 0; i < 20; i++) {
   kiritilgan_sonlar = Number(prompt("O`ylagan soningizni kiriting: "));
 
   sonlar_toplami.push(kiritilgan_sonlar);
