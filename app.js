@@ -23,8 +23,10 @@ for (let i = 0; i < 20; i++) {
       `Siz g'olibsiz, siz ${sonlar_toplami.length} chi urunishda meni mag'lub etdingiz `
     );
     break;
-  } else {
-    alert("yana urinib ko`ring");
+  } else if(random > kiritilgan_sonlar){
+    alert("Men o`ylagan son bundan kattaroq edi, qayta urinib ko`ring");
+  } else if (random < kiritilgan_sonlar){
+    alert("Men o`ylagan son bundan kichikroq edi, qayta urinib ko`ring");
   }
 
   // console.log(sonlar_toplami);
