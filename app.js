@@ -11,14 +11,14 @@ let oyna = document.querySelector("#son");
 let urinish = document.querySelector("#urinishlar");
 
 let random = Math.floor(Math.random() * 20 + 1);
-let a = "javob";
+let a = 5;
 
 for (let i = 0; i < 20; i++) {
   kiritilgan_sonlar = Number(prompt("O`ylagan soningizni kiriting: "));
 
   sonlar_toplami.push(kiritilgan_sonlar);
 
-  if (random === kiritilgan_sonlar || kiritilgan_sonlar.toString() === a) {
+  if (random === kiritilgan_sonlar || kiritilgan_sonlar === a) {
     alert(
       `Siz g'olibsiz, siz ${sonlar_toplami.length} chi urunishda meni mag'lub etdingiz `
     );
