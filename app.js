@@ -18,7 +18,7 @@ for (let i = 0; i < 20; i++) {
 
   sonlar_toplami.push(kiritilgan_sonlar);
 
-  if (random === kiritilgan_sonlar || toString(kiritilgan_sonlar) === a) {
+  if (random === kiritilgan_sonlar || kiritilgan_sonlar.toString() === a) {
     alert(
       `Siz g'olibsiz, siz ${sonlar_toplami.length} chi urunishda meni mag'lub etdingiz `
     );
